@@ -1,0 +1,11 @@
+[
+    { "id": 1, "nombre": "Marte", "gravedad": 3.7 },
+    { "id": 2, "nombre": "Jupiter", "gravedad": 24.8 },
+    { "id": 3, "nombre": "Cripton", "gravedad": 75.8 },
+    { "id": 4, "nombre": "Mercurio", "gravedad": 2.8 },
+    { "id": 5, "nombre": "Venus", "gravedad": 8.9 },
+    { "id": 6, "nombre": "Saturno", "gravedad": 9.1 },
+    { "id": 7, "nombre": "Urano", "gravedad": 7.8 },
+    { "id": 8, "nombre": "Neptuno", "gravedad": 11 },
+    { "id": 9, "nombre": "Luna", "gravedad": 1.6 }
+]

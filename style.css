@@ -1,33 +1,81 @@
-/* styles.css */
+/* Estilo general del cuerpo */
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-  }
+  font-family: Arial, sans-serif; 
+  background-color: #f4f4f4; 
+  margin: 0; 
+  padding: 15px; 
+}
+
+.grupo-entrada {
+  margin: 20px 0; 
   
-  .input-group {
-    margin-bottom: 10px;
-  }
+}
+/* Estilo del título */
+h1 {
+  text-align: center; 
+  color: #333; 
+  font-size: 35px;
+}
+
+/* Estilo para las etiquetas */
+.etiqueta-peso,
+.etiqueta-opcion,
+.etiqueta-planeta,
+.etiqueta-buscar,
+.etiqueta-gravedad,
+.etiqueta-filtro {
   
-  .opcion {
-    margin-top: 10px;
-  }
-  
-  button {
-    margin-top: 5px;
-    padding: 8px 12px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
-  .resultado {
+  display: block; 
+  margin-bottom: 25px; 
+  margin-top: 10px;
+  font-weight: bold; 
+  color: #555; 
+}
+
+/* Estilo para los inputs y selects */
+.entrada-peso,
+.entrada-buscar,
+.entrada-gravedad,
+.seleccion-opcion,
+.seleccion-planeta,
+.seleccion-filtro {
+  width: 20%; 
+  padding: 10px; 
+  margin-top: 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+}
+
+/* Estilo para los botones */
+.boton-calcular,
+.boton-buscar,
+.boton-filtrar {
+    width: 20%; 
+    padding: 10px 15px; 
+    background-color: #5cb85c; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
     margin-top: 15px;
-    font-weight: bold;
-  }
-  
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.boton-calcular:hover,
+.boton-buscar:hover,
+.boton-filtrar:hover {
+    background-color: #4cae4c; 
+    margin-top: 15px;
+    
+}
+/* Estilo para el resultado */
+.resultado {
+  width: 38.5%;
+  margin-top: 20px; 
+  padding: 15px; 
+  background-color: #fff; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}

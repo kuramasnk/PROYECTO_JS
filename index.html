@@ -1,58 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<html lang="es">
+  <!-- Cambiado a español -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Calculadora de Peso en Planetas</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Calcula tu Peso en Otros Planetas</h1>
 
-    <div class="input-group">
-      <label for="peso">Introduce tu peso (kg):</label>
-      <input type="number" id="peso" />
+    <div class="grupo-entrada">
+      <label for="peso" class="etiqueta-peso">Introduce tu peso (kg):</label>
+      <input type="number" id="peso" class="entrada-peso" />
     </div>
-  
-    <div class="input-group">
-      <label for="opcion">Elige una opción:</label>
-      <select id="opcion">
+
+    <div class="grupo-entrada">
+      <label for="opcion" class="etiqueta-opcion">Elige una opción:</label>
+      <select id="opcion" class="seleccion-opcion">
         <option value="1">Calcular peso en un planeta</option>
         <option value="2">Buscar planeta por nombre</option>
         <option value="3">Filtrar planetas por gravedad</option>
       </select>
     </div>
-  
-    <div id="opcion1" class="opcion" >
-      <label for="planetaSelect">Elige el planeta:</label>
-      <select id="planetaSelect">
+
+    <div id="opcion1" class="opcion">
+      <label for="planetaSelect" class="etiqueta-planeta"
+        >Elige el planeta:</label
+      >
+      <select id="planetaSelect" class="seleccion-planeta">
         <option value="1">Marte</option>
-        <option value="2">Júpiter</option>
+        <option value="2">Jupiter</option>
         <option value="3">Cripton</option>
+        <option value="4">Mercurio</option>
+        <option value="5">Venus</option>
+        <option value="6">Saturno</option>
+        <option value="7">Urano</option>
+        <option value="8">Neptuno</option>
+        <option value="9">Luna</option>
       </select>
-      <button id="calcularPeso">Calcular Peso</button>
+      <button id="calcularPeso" class="boton-calcular">Calcular Peso</button>
     </div>
-  
-    <div id="opcion2" class="opcion" >
-      <label for="buscarNombre">Introduce el nombre del planeta:</label>
-      <input type="text" id="buscarNombre" />
-      <button id="buscarPlaneta">Buscar</button>
+
+    <div id="opcion2" class="opcion">
+      <label for="buscarNombre" class="etiqueta-buscar"
+        >Introduce el nombre del planeta:</label
+      >
+      <input type="text" id="buscarNombre" class="entrada-buscar" />
+      <button id="buscarPlaneta" class="boton-buscar">Buscar</button>
     </div>
-  
-    <div id="opcion3" class="opcion" >
-      <label for="gravedadLímite">Introduce valor de gravedad límite:</label>
-      <input type="number" id="gravedadLímite" />
-      <label for="tipoFiltro">Tipo de filtro:</label>
-      <select id="tipoFiltro">
+
+    <div id="opcion3" class="opcion">
+      <label for="gravedadLimite" class="etiqueta-gravedad"
+        >Introduce valor de gravedad límite:</label
+      >
+      <input type="number" id="gravedadLimite" class="entrada-gravedad" />
+      <label for="tipoFiltro" class="etiqueta-filtro">Tipo de filtro:</label>
+      <select id="tipoFiltro" class="seleccion-filtro">
         <option value="1">Mayor a límite</option>
         <option value="2">Menor a límite</option>
       </select>
-      <button id="filtrarPlanetas">Filtrar</button>
+      <button id="filtrarPlanetas" class="boton-filtrar">Filtrar</button>
     </div>
-  
+
     <div id="resultado" class="resultado"></div>
-  
-        
+
     <script src="terceraentrega.js"></script>
-</body>
+  </body>
 </html>
