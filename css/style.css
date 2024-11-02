@@ -50,7 +50,8 @@ h1 {
 /* Estilo para los botones */
 .boton-calcular,
 .boton-buscar,
-.boton-filtrar {
+.boton-filtrar,
+.boton-info {
     width: 20%; 
     padding: 10px 15px; 
     background-color: #5cb85c; 
@@ -79,3 +80,4 @@ h1 {
   border-radius: 5px; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
+

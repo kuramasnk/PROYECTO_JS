@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
-  <!-- Cambiado a español -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Calculadora de Peso en Planetas</title>
   </head>
   <body>
@@ -30,16 +30,16 @@
       >
       <select id="planetaSelect" class="seleccion-planeta">
         <option value="1">Marte</option>
-        <option value="2">Jupiter</option>
-        <option value="3">Cripton</option>
-        <option value="4">Mercurio</option>
-        <option value="5">Venus</option>
-        <option value="6">Saturno</option>
-        <option value="7">Urano</option>
-        <option value="8">Neptuno</option>
-        <option value="9">Luna</option>
+        <option value="2">Pluton</option>
+        <option value="3">Mercurio</option>
+        <option value="4">Venus</option>
+        <option value="5">Saturno</option>
+        <option value="6">Urano</option>
+        <option value="7">Neptuno</option>
+        <option value="8">Luna</option>
       </select>
-      <button id="calcularPeso" class="boton-calcular">Calcular Peso</button>
+      <button id="calcularPeso" class="boton-calcular"type=button>Calcular Peso</button>
+      <button id="infoPlanetas" class="boton-info"type=button>Informacion</button>
     </div>
 
     <div id="opcion2" class="opcion">
@@ -47,7 +47,7 @@
         >Introduce el nombre del planeta:</label
       >
       <input type="text" id="buscarNombre" class="entrada-buscar" />
-      <button id="buscarPlaneta" class="boton-buscar">Buscar</button>
+      <button id="buscarPlaneta" class="boton-buscar"type=button>Buscar</button>
     </div>
 
     <div id="opcion3" class="opcion">
@@ -60,11 +60,18 @@
         <option value="1">Mayor a límite</option>
         <option value="2">Menor a límite</option>
       </select>
-      <button id="filtrarPlanetas" class="boton-filtrar">Filtrar</button>
+      <button id="filtrarPlanetas" class="boton-filtrar"type=button>Filtrar</button>
+      
     </div>
+
 
     <div id="resultado" class="resultado"></div>
 
-    <script src="terceraentrega.js"></script>
+
+    
+    <script src="js/terceraentrega.js"></script>
+    <script src="js/toastify.js"></script>
+    <script src="js/fetch.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   </body>
 </html>

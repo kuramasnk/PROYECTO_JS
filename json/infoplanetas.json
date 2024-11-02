@@ -1,0 +1,67 @@
+[
+    {
+        "nombre": "Marte",
+        "imagen": "/img/marte.jpeg",
+        "diametro": "6,779 km",
+        "rotacion": "24.6 horas",
+        "satelites": 2,
+        "radio": "3,389.5 km"
+    },
+    
+    {
+        "nombre": "Pluton",
+        "imagen": "/img/pluton.jpeg",
+        "diametro": "2.376 KM",
+        "rotacion": "6.4 horas",
+        "satelites": "4",
+        "radio": "1.188 km"
+    },
+    {
+        "nombre": "Mercurio",
+        "imagen": "/img/mercurio.jpeg",
+        "diametro": "4,880 km",
+        "rotacion": "58.6 horas",
+        "satelites": 0,
+        "radio": "2,440 km"
+    },
+    {
+        "nombre": "Venus",
+        "imagen": "/img/venus.jpeg",
+        "diametro": "12,104 km",
+        "rotacion": "243 horas",
+        "satelites": 0,
+        "radio": "6,051.8 km"
+    },
+    {
+        "nombre": "Saturno",
+        "imagen": "/img/saturno.jpeg",
+        "diametro": "116,460 km",
+        "rotacion": "10.7 horas",
+        "satelites": 83,
+        "radio": "58,232 km"
+    },
+    {
+        "nombre": "Urano",
+        "imagen": "/img/urano.jpeg",
+        "diametro": "50,724 km",
+        "rotacion": "17.2 horas",
+        "satelites": 27,
+        "radio": "25,362 km"
+    },
+    {
+        "nombre": "Neptuno",
+        "imagen": "/img/neptuno.jpeg",
+        "diametro": "49,244 km",
+        "rotacion": "16.1 horas",
+        "satelites": 14,
+        "radio": "24,622 km"
+    },
+    {
+        "nombre": "Luna",
+        "imagen": "/img/luna.jpeg",
+        "diametro": "3,474.8 km",
+        "rotacion": "27.3 días",
+        "satelites": 0,
+        "radio": "1,737.4 km"
+    }
+]
