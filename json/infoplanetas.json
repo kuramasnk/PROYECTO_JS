@@ -1,7 +1,7 @@
 [
     {
         "nombre": "Marte",
-        "imagen": "/img/marte.jpeg",
+        "imagen": "https://i.postimg.cc/qvrrPF7n/marte.jpg",
         "diametro": "6,779 km",
         "rotacion": "24.6 horas",
         "satelites": 2,
@@ -10,7 +10,7 @@
     
     {
         "nombre": "Pluton",
-        "imagen": "/img/pluton.jpeg",
+        "imagen": "https://i.postimg.cc/nLcJzQBh/pluton.jpg",
         "diametro": "2.376 KM",
         "rotacion": "6.4 horas",
         "satelites": "4",
@@ -18,7 +18,7 @@
     },
     {
         "nombre": "Mercurio",
-        "imagen": "/img/mercurio.jpeg",
+        "imagen": "https://i.postimg.cc/3Jm7bh3Y/mercurio.jpg",
         "diametro": "4,880 km",
         "rotacion": "58.6 horas",
         "satelites": 0,
@@ -26,7 +26,7 @@
     },
     {
         "nombre": "Venus",
-        "imagen": "/img/venus.jpeg",
+        "imagen": "https://i.postimg.cc/QtvG04PF/venus.jpg",
         "diametro": "12,104 km",
         "rotacion": "243 horas",
         "satelites": 0,
@@ -34,7 +34,7 @@
     },
     {
         "nombre": "Saturno",
-        "imagen": "/img/saturno.jpeg",
+        "imagen": "https://i.postimg.cc/bvCj2N9H/saturno.jpg",
         "diametro": "116,460 km",
         "rotacion": "10.7 horas",
         "satelites": 83,
@@ -42,7 +42,7 @@
     },
     {
         "nombre": "Urano",
-        "imagen": "/img/urano.jpeg",
+        "imagen": "https://i.postimg.cc/NMKv8qNh/urano.jpg",
         "diametro": "50,724 km",
         "rotacion": "17.2 horas",
         "satelites": 27,
@@ -50,7 +50,7 @@
     },
     {
         "nombre": "Neptuno",
-        "imagen": "/img/neptuno.jpeg",
+        "imagen": "https://i.postimg.cc/fRvsDv3P/neptuno.jpg",
         "diametro": "49,244 km",
         "rotacion": "16.1 horas",
         "satelites": 14,
@@ -58,7 +58,7 @@
     },
     {
         "nombre": "Luna",
-        "imagen": "/img/luna.jpeg",
+        "imagen": "https://i.postimg.cc/8kqNHcQZ/luna.jpg",
         "diametro": "3,474.8 km",
         "rotacion": "27.3 días",
         "satelites": 0,
