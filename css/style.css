@@ -14,7 +14,7 @@ body {
 h1 {
   text-align: center; 
   color: #333; 
-  font-size: 35px;
+  font-size: 25px;
 }
 
 /* Estilo para las etiquetas */
@@ -26,7 +26,7 @@ h1 {
 .etiqueta-filtro {
   
   display: block; 
-  margin-bottom: 25px; 
+  margin-bottom: 5px; 
   margin-top: 10px;
   font-weight: bold; 
   color: #555; 
@@ -51,31 +51,33 @@ h1 {
 .boton-calcular,
 .boton-buscar,
 .boton-filtrar,
-.boton-info {
+.boton-info,
+.boton-limpiar {
     width: 20%; 
     padding: 10px 15px; 
     background-color: #5cb85c; 
     color: white; 
     border: none; 
     border-radius: 5px; 
-    margin-top: 15px;
     cursor: pointer; 
     transition: background-color 0.3s; 
 }
 
 .boton-calcular:hover,
 .boton-buscar:hover,
-.boton-filtrar:hover {
-    background-color: #4cae4c; 
-    margin-top: 15px;
+.boton-filtrar:hover,
+.boton-info:hover{
+    background-color: #78c8e7; 
+  
     
 }
 /* Estilo para el resultado */
 .resultado {
-  width: 38.5%;
-  margin-top: 20px; 
-  padding: 15px; 
-  background-color: #fff; 
+  width:39.5%;
+  height: 420px;
+  margin-top: 5px; 
+  padding: 5px; 
+  background-color: #ebc2c2; 
   border: 1px solid #ccc; 
   border-radius: 5px; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 

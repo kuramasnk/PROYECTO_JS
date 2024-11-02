@@ -22,23 +22,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const opcionSelect = document.getElementById("opcion");
   const resultadoDiv = document.getElementById("resultado");
 
-  // Divisiones de las opciones
-  const opcion1Div = document.getElementById("opcion1");
-  const opcion2Div = document.getElementById("opcion2");
-  const opcion3Div = document.getElementById("opcion3");
 
-  // Manejar el cambio de selección de opciones
-  opcionSelect.addEventListener("change", (e) => {
-      mostrarOpcion(e.target.value);
-  });
-
-  // Mostrar la opción correspondiente
-  function mostrarOpcion(opcion) {
-      opcion1Div.style.display = opcion === "1" ? "block" : "none";
-      opcion2Div.style.display = opcion === "2" ? "block" : "none";
-      opcion3Div.style.display = opcion === "3" ? "block" : "none";
-      resultadoDiv.textContent = "";
-  }
 
   // Calcular peso en el planeta seleccionado
   document.getElementById("calcularPeso").addEventListener("click", () => {
@@ -93,3 +77,27 @@ document.addEventListener("DOMContentLoaded", async () => {
       localStorage.setItem("pesoUsuario", pesoInput.value);
   });
 });
+// Función para limpiar todos los campos
+document.getElementById('limpiarCampos').addEventListener('click', function() {
+    // Limpia el campo de peso
+    document.getElementById('peso').value = '';
+    // Limpia el campo de buscar nombre
+    document.getElementById('buscarNombre').value = '';
+    // Limpia el campo de gravedad límite
+    document.getElementById('gravedadLimite').value = '';
+    // Restablece la selección de planetas
+    document.getElementById('planetaSelect').selectedIndex = 0;
+    // Restablece la selección de tipo de filtro
+    document.getElementById('tipoFiltro').selectedIndex = 0;
+    // Limpia el div de resultado
+    document.getElementById('resultado').innerHTML = '';
+    // Mostrar un mensaje de agradecimiento o confirmación
+    Toastify({
+      text: "¡Listo para otra acción!",
+      duration: 3000,
+      gravity: "top",
+      position: 'center',
+      backgroundColor: "#28a745",
+    }).showToast();
+  });
+

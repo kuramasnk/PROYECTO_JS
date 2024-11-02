@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     // Muestra la información del planeta encontrado
                     contenedorResultados.innerHTML = `
                         <h2>${planetaEncontrado.nombre}</h2>
-                        <img src="${planetaEncontrado.imagen}" alt="${planetaEncontrado.nombre}" style="width:300px; height:auto;">
+                        <img src="${planetaEncontrado.imagen}" alt="${planetaEncontrado.nombre}" style="width:200px; height:auto;">
                         <p><strong>Diámetro:</strong> ${planetaEncontrado.diametro}</p>
                         <p><strong>Rotación:</strong> ${planetaEncontrado.rotacion}</p>
                         <p><strong>Número de Satélites:</strong> ${planetaEncontrado.satelites}</p>
