@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function mostrarInfoPlaneta() {
         var planetaSeleccionado = selectPlaneta.options[selectPlaneta.selectedIndex].text;
 
-        fetch('json/infoplanetas.json')
+        fetch('/json/infoplanetas.json')
             .then(function (response) {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
