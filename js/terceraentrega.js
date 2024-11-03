@@ -1,6 +1,6 @@
 // Cargar datos de planetas desde un archivo JSON y almacenar en Local Storage
 function cargarPlanetas() {
-    return fetch('/json/planetas.json')
+    return fetch('json/planetas.json')
         .then(function (response) { // Cambia 'planetas.json' si es necesario
             if (!response.ok) throw new Error("Error al cargar los datos");
             return response.json();
