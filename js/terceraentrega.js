@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   const planetas = JSON.parse(localStorage.getItem('planetas')) || [];
   
   const pesoInput = document.getElementById("peso");
-  const opcionSelect = document.getElementById("opcion");
   const resultadoDiv = document.getElementById("resultado");
 
 
@@ -79,19 +78,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 // Función para limpiar todos los campos
 document.getElementById('limpiarCampos').addEventListener('click', function() {
-    // Limpia el campo de peso
     document.getElementById('peso').value = '';
-    // Limpia el campo de buscar nombre
     document.getElementById('buscarNombre').value = '';
-    // Limpia el campo de gravedad límite
     document.getElementById('gravedadLimite').value = '';
-    // Restablece la selección de planetas
     document.getElementById('planetaSelect').selectedIndex = 0;
-    // Restablece la selección de tipo de filtro
     document.getElementById('tipoFiltro').selectedIndex = 0;
-    // Limpia el div de resultado
     document.getElementById('resultado').innerHTML = '';
-    // Mostrar un mensaje de agradecimiento o confirmación
     Toastify({
       text: "¡Listo para otra acción!",
       duration: 3000,
