@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Selecciona los botones por su ID
-  const botonCalcularPeso = document.getElementById("calcularPeso");
-  const botonBuscarPlaneta = document.getElementById("buscarPlaneta");
-  const botonFiltrarPlanetas = document.getElementById("filtrarPlanetas");
+  var botonCalcularPeso = document.getElementById("calcularPeso");
+  var botonBuscarPlaneta = document.getElementById("buscarPlaneta");
+  var botonFiltrarPlanetas = document.getElementById("filtrarPlanetas");
 
   // Función para mostrar el mensaje
   function mostrarAgradecimiento(mensaje) {
@@ -16,19 +16,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }).showToast();
   }
 
-  botonCalcularPeso.addEventListener("click", () =>
-    mostrarAgradecimiento(
-      "🚀  Gracias por calcular tu peso . 🌌"
-    )
-  );
-  botonBuscarPlaneta.addEventListener("click", () =>
-    mostrarAgradecimiento(
-      "🔍  Gracias por buscar tu planeta. 🪐"
-    )
-  );
-  botonFiltrarPlanetas.addEventListener("click", () =>
-    mostrarAgradecimiento(
-      "⚖️  Gracias por filtrar tu planeta. 🌠"
-    )
-  );
+  botonCalcularPeso.addEventListener("click", function() {
+    mostrarAgradecimiento("🚀  Gracias por calcular tu peso . 🌌");
+  });
+  botonBuscarPlaneta.addEventListener("click",function () {
+    mostrarAgradecimiento("🔍  Gracias por buscar tu planeta. 🪐");
+  });
+  botonFiltrarPlanetas.addEventListener("click",function () {
+    mostrarAgradecimiento("⚖️  Gracias por filtrar tu planeta. 🌠");
+    
+  });
 });
